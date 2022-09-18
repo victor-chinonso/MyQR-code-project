@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D2DAFF;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    width: fit-content;
+    margin: 150px auto;
+    border: 10px solid #fff;
+    border-radius: 15px;
+    text-align: center; 
+    
+}
+.img-1{
+    background-color: #fff;
+}
+.img{
+    width: 270px;
+    border-radius: 15px;
+    padding-top: 5px;
+    
+}
+.text{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+   
+}
+.text h2{
+    font-weight: 700;
+}
+.text p{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    color: darkgray;
+   
+    
+    
+}
+@media only screen and (max-width: 375px){
+    .container{
+        width: fit-content;
+    }
+}
